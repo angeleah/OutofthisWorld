@@ -21,6 +21,7 @@
 		62FC9DC818D2241B009052E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62FC9DC618D2241B009052E8 /* InfoPlist.strings */; };
 		62FC9DCA18D2241B009052E8 /* Out_of_this_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FC9DC918D2241B009052E8 /* Out_of_this_WorldTests.m */; };
 		62FC9DD518D225EC009052E8 /* OWOuterSpaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FC9DD418D225EC009052E8 /* OWOuterSpaceTableViewController.m */; };
+		62FC9DD818D35C4A009052E8 /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FC9DD718D35C4A009052E8 /* AstronomicalData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		62FC9DC918D2241B009052E8 /* Out_of_this_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Out_of_this_WorldTests.m; sourceTree = "<group>"; };
 		62FC9DD318D225EC009052E8 /* OWOuterSpaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OWOuterSpaceTableViewController.h; path = ../OWOuterSpaceTableViewController.h; sourceTree = "<group>"; };
 		62FC9DD418D225EC009052E8 /* OWOuterSpaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OWOuterSpaceTableViewController.m; path = ../OWOuterSpaceTableViewController.m; sourceTree = "<group>"; };
+		62FC9DD618D35C4A009052E8 /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalData.h; sourceTree = "<group>"; };
+		62FC9DD718D35C4A009052E8 /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 		62FC9DA518D2241B009052E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				62FC9DD618D35C4A009052E8 /* AstronomicalData.h */,
+				62FC9DD718D35C4A009052E8 /* AstronomicalData.m */,
 				62FC9DA618D2241B009052E8 /* Out of this World-Info.plist */,
 				62FC9DA718D2241B009052E8 /* InfoPlist.strings */,
 				62FC9DAA18D2241B009052E8 /* main.m */,
@@ -253,6 +258,7 @@
 				62FC9DD518D225EC009052E8 /* OWOuterSpaceTableViewController.m in Sources */,
 				62FC9DAF18D2241B009052E8 /* OWAppDelegate.m in Sources */,
 				62FC9DAB18D2241B009052E8 /* main.m in Sources */,
+				62FC9DD818D35C4A009052E8 /* AstronomicalData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
