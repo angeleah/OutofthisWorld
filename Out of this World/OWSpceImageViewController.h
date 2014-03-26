@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OWSpceImageViewController : UIViewController
+@interface OWSpceImageViewController : UIViewController <UIScrollViewDelegate>
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) UIImageView *imageView;
 
 @end
