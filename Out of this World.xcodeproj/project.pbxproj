@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62A5476018E34EFE00BB4C7C /* OWSpceImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A5475F18E34EFE00BB4C7C /* OWSpceImageViewController.m */; };
 		62F2AD5418D36FED00A60D6C /* Earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62F2AD4A18D36FED00A60D6C /* Earth.jpg */; };
 		62F2AD5518D36FED00A60D6C /* EinsteinRing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62F2AD4B18D36FED00A60D6C /* EinsteinRing.jpg */; };
 		62F2AD5618D36FED00A60D6C /* Jupiter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62F2AD4C18D36FED00A60D6C /* Jupiter.jpg */; };
@@ -46,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62A5475E18E34EFE00BB4C7C /* OWSpceImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSpceImageViewController.h; sourceTree = "<group>"; };
+		62A5475F18E34EFE00BB4C7C /* OWSpceImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSpceImageViewController.m; sourceTree = "<group>"; };
 		62F2AD4A18D36FED00A60D6C /* Earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth.jpg; sourceTree = "<group>"; };
 		62F2AD4B18D36FED00A60D6C /* EinsteinRing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EinsteinRing.jpg; sourceTree = "<group>"; };
 		62F2AD4C18D36FED00A60D6C /* Jupiter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jupiter.jpg; sourceTree = "<group>"; };
@@ -158,6 +161,8 @@
 				62FC9DAD18D2241B009052E8 /* OWAppDelegate.h */,
 				62FC9DAE18D2241B009052E8 /* OWAppDelegate.m */,
 				62FC9DB018D2241B009052E8 /* Main.storyboard */,
+				62A5475E18E34EFE00BB4C7C /* OWSpceImageViewController.h */,
+				62A5475F18E34EFE00BB4C7C /* OWSpceImageViewController.m */,
 				62FC9DD318D225EC009052E8 /* OWOuterSpaceTableViewController.h */,
 				62FC9DD418D225EC009052E8 /* OWOuterSpaceTableViewController.m */,
 				62F2AD5E18D3702C00A60D6C /* OWSpaceObject.h */,
@@ -309,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62FC9DD518D225EC009052E8 /* OWOuterSpaceTableViewController.m in Sources */,
+				62A5476018E34EFE00BB4C7C /* OWSpceImageViewController.m in Sources */,
 				62F2AD6018D3702C00A60D6C /* OWSpaceObject.m in Sources */,
 				62FC9DAF18D2241B009052E8 /* OWAppDelegate.m in Sources */,
 				62FC9DAB18D2241B009052E8 /* main.m in Sources */,
