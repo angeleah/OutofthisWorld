@@ -273,8 +273,8 @@
             [newSavedSpaceObjectData addObject:[self spaceObjectPropertyList:spaceObject]];
         }
         [[NSUserDefaults standardUserDefaults] setObject:newSavedSpaceObjectData forKey:ADDED_SPACE_OBJECTS_KEY];
-        
         [[NSUserDefaults standardUserDefaults] synchronize];
+        
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
     }   
     else if (editingStyle == UITableViewCellEditingStyleInsert) {
